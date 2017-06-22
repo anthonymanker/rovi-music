@@ -5,7 +5,6 @@
 
 from .client import RoviClient
 from .exceptions import RoviMissingArgumentsException, RoviRestrictedParameterException
-from .sig import computesig
 
 import json
 import requests
