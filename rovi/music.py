@@ -61,7 +61,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -113,7 +113,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -149,7 +149,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -194,7 +194,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -245,7 +245,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -285,7 +285,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -319,7 +319,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -359,7 +359,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -399,7 +399,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -433,7 +433,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -473,7 +473,7 @@ class Album(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -525,7 +525,7 @@ class Composition(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -554,7 +554,7 @@ class Composition(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -582,7 +582,7 @@ class Composition(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -616,7 +616,7 @@ class Composition(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -660,7 +660,7 @@ class Performance(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -689,7 +689,7 @@ class Performance(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -717,7 +717,7 @@ class Performance(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -749,7 +749,7 @@ class Performance(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -775,7 +775,7 @@ class Performance(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -824,7 +824,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -880,7 +880,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -920,7 +920,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -969,7 +969,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1024,7 +1024,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1070,7 +1070,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1114,7 +1114,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1154,7 +1154,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1200,7 +1200,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1246,7 +1246,7 @@ class Release(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1313,7 +1313,7 @@ class Song(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1369,7 +1369,7 @@ class Song(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1420,7 +1420,7 @@ class Song(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,
@@ -1465,7 +1465,7 @@ class Song(RoviClient):
 
 		payload = {
 			'apikey': self.api_key,
-			'sig': computesig(self.api_key, self.secret_key),
+			'sig': self.computesig(self.api_key, self.secret_key),
 			'format': self.format,
 			'country': self.country,
 			'language': self.language,

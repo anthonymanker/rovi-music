@@ -1,5 +1,7 @@
-import requests
 from .exceptions import RoviMissingApiKeyException
+import requests
+import time
+import hashlib
 
 
 class RoviClient(object):
@@ -22,3 +24,11 @@ class RoviClient(object):
 
         # Use single session so that keep-alive works.
         self.session = requests.Session() 
+
+    def computesig(self, apikey, secretkey):
+
+        unixtime = time.time()
+        concat = str(apikey) + str(secretkey) + str(unixtime)
+        m = hashlib.md5()
+        m.update(concat.encode('utf-8'))
+        return m.hexdigest()

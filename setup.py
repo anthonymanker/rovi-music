@@ -9,7 +9,7 @@ setup(
     name='python-rovi-music',
     description='Python Wrapper for Rovi Music API',
     license='MIT License',
-    version='0.1dev',
+    version='0.1',
     zip_safe=False,
     platforms='any',
     packages=['rovi'],
